@@ -17,7 +17,7 @@ module.exports = {
     const { threadID } = event;
 
     const ownerPics = [
-      'https://i.ibb.co/6ckwbv4V/06291e1dc09d.jpg'
+      'https://i.ibb.co/1YHX3Dx5/466ab1dc75a4.jpg'
     ];
 
     const randomPic = ownerPics[Math.floor(Math.random() * ownerPics.length)];
