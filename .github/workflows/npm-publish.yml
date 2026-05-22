@@ -1,47 +1,25 @@
-name: 🤖 RDX MEGA BOT — CI Check
+name: Run Bot - RDX-BOT
 
 on:
   push:
-    branches: [main, master]
-  pull_request:
-    branches: [main, master]
+    branches:
+      - main
 
 jobs:
-  build:
-    name: ✅ Install & Verify
+  run-bot:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x]
-
     steps:
-      - name: 📥 Checkout Code
-        uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - name: 🟢 Setup Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
+          node-version: '20'
 
-      - name: 📦 Install Dependencies
+      - name: Install dependencies
         run: npm install
 
-      - name: 🔍 Check Bot Files Exist
-        run: |
-          echo "Checking core bot files..."
-          test -f index.js   && echo "✔ index.js found"   || (echo "✘ index.js missing!" && exit 1)
-          test -f bot.js     && echo "✔ bot.js found"     || (echo "✘ bot.js missing!"   && exit 1)
-          test -f server.js  && echo "✔ server.js found"  || (echo "✘ server.js missing!" && exit 1)
-          test -f config.json && echo "✔ config.json found" || (echo "✘ config.json missing!" && exit 1)
-          echo "✅ All core files verified!"
-
-      - name: 📋 Check Commands Loaded
-        run: |
-          COUNT=$(ls Sardar/commands/*.js 2>/dev/null | wc -l)
-          echo "✔ Commands found: $COUNT"
-          [ "$COUNT" -gt 0 ] || (echo "✘ No commands found!" && exit 1)
-
-      - name: 🎉 CI Passed
-        run: echo "🌟 RDX MEGA BOT CI check passed successfully!"
+      - name: Run the bot
+        run: node index.js
