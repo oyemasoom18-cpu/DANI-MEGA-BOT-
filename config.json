@@ -1,6 +1,6 @@
 {
   "PORT": 5000,
-  "LOGIN_METHOD": "cookies",
+  "LOGIN_METHOD": "appstate",
   "BOTNAME": "🌟 SARDAR RDX BOT 🌟",
   "PREFIX": ".",
   "ADMINBOT": [],
