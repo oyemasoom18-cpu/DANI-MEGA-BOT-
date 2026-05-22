@@ -29,7 +29,7 @@ module.exports = {
 
 ┌──────────────────────┐
 │  👤 ɴᴀᴍᴇ            │
-│  ➤ SARDAR RDX        │
+│  ➤ DANIYAL BHATTI      │
 └──────────────────────┘
 
 ┌──────────────────────┐
@@ -37,19 +37,19 @@ module.exports = {
 └──────────────────────┘
 
   🔗 ꜰᴀᴄᴇʙᴏᴏᴋ:
-  facebook.com/SARDAR.RDX
+  www.facebook.com/DANIYAL BHATTI 
 
   💬 ᴡʜᴀᴛꜱᴀᴘᴘ:
-  wa.me/923301068874
+  wa.me/923273760662
 
   📧 ᴇᴍᴀɪʟ:
-  sardarrdx@gmail.com
+  danixsardar07.com
 
 ┌──────────────────────┐
 │  🤖 ʙᴏᴛ ᴅᴇᴛᴀɪʟꜱ     │
 └──────────────────────┘
 
-  📛 ɴᴀᴍᴇ: ${config.BOTNAME || 'SARDAR RDX BOT'}
+  📛 ɴᴀᴍᴇ: ${config.BOTNAME || 'IRHU'}
   ⌨️ ᴘʀᴇꜰɪx: ${config.PREFIX || '.'}
   📦 ᴠᴇʀꜱɪᴏɴ: 2.0.0
   🛠️ ꜰʀᴀᴍᴇᴡᴏʀᴋ: RDX-FCA v2
@@ -58,7 +58,7 @@ module.exports = {
 │  🏆 ᴅᴇᴠᴇʟᴏᴘᴇʀ       │
 └──────────────────────┘
 
-  💻 ɴᴀᴍᴇ: SARDAR RDX
+  💻 ɴᴀᴍᴇ: DANIYAL 
   🌟 ꜱᴛᴀᴛᴜꜱ: Active
   🎯 ʀᴏʟᴇ: Bot Developer
 
