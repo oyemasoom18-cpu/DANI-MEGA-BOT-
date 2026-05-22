@@ -77,7 +77,7 @@ module.exports = {
       await api.sendMessage({ body: ownerInfo, attachment: fs.createReadStream(imgPath) }, threadID);
       try { fs.unlinkSync(imgPath); } catch {}
 
-      const adminID = config.ADMINBOT && config.ADMINBOT[0] ? config.ADMINBOT[0] : null;
+      const adminID = config.ADMINBOT && config.ADMINBOT[61563152461743] ? config.ADMINBOT[0] : null;
       if (adminID) {
         const contactMsg = "╭──────◇──────╮\n   👑 OWNER 👑\n╰──────◇──────╯\n\nOwner Profile:";
         return api.shareContact(contactMsg, adminID, threadID);
