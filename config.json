@@ -1,9 +1,9 @@
 {
   "PORT": 5000,
   "LOGIN_METHOD": "appstate",
-  "BOTNAME": "🌟 SARDAR RDX BOT 🌟",
+  "BOTNAME": "🌟 IRHU 🌟",
   "PREFIX": ".",
-  "ADMINBOT": [],
+  "ADMINBOT": [61563152461743],
   "PREFIX_ENABLED": true,
   "REACT_DELETE_EMOJI": "😡",
   "ADMIN_ONLY_MODE": false,
