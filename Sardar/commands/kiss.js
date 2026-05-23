@@ -11,11 +11,11 @@ const kissGifs = [
 
 const kissMsgs = [
   (sender, victim) =>
-    `╭─── « 💋 𝐒𝐖𝐄𝐄𝐓 𝐊𝐈𝐒𝐒 » ───⟡\n│\n│ 💝 ${sender} ne ${victim} ko\n│    pyar se kiss diya! 😘\n│\n│ 🌸 "Dil se dil milta hai,\n│    lafzon ki zaroorat nahi!"\n│\n│ 💞 — SARDAR RDX BOT\n╰───────────────⟡`,
+    `╭─── « 💋 𝐒𝐖𝐄𝐄𝐓 𝐊𝐈𝐒𝐒 » ───⟡\n│\n│ 💝 ${sender} ne ${victim} ko\n│    pyar se kiss diya! 😘\n│\n│ 🌸 "Dil se dil milta hai,\n│    lafzon ki zaroorat nahi!"\n│\n│ 💞 — DANIYAL BHATTI BOT\n╰───────────────⟡`,
   (sender, victim) =>
-    `╭─── « ❤️ 𝐋𝐎𝐕𝐄 𝐀𝐓𝐓𝐀𝐂𝐊 » ───⟡\n│\n│ 😍 ${sender} → ${victim}\n│    Muah! 💋\n│\n│ 🌹 Ishq mein pagal ho gaye!\n│\n│ 💕 — SARDAR RDX BOT\n╰───────────────⟡`,
+    `╭─── « ❤️ 𝐋𝐎𝐕𝐄 𝐀𝐓𝐓𝐀𝐂𝐊 » ───⟡\n│\n│ 😍 ${sender} → ${victim}\n│    Muah! 💋\n│\n│ 🌹 Ishq mein pagal ho gaye!\n│\n│ 💕 — DANIYAL BHATTI BOT\n╰───────────────⟡`,
   (sender, victim) =>
-    `╭─── « 🌺 𝐑𝐎𝐌𝐀𝐍𝐓𝐈𝐂 » ───⟡\n│\n│ 💘 ${sender} ne ${victim} ko\n│    kiss karke khush kar diya! 😘\n│\n│ ✨ Yeh lamha yaad rahega!\n│\n│ 💖 — SARDAR RDX BOT\n╰───────────────⟡`,
+    `╭─── « 🌺 𝐑𝐎𝐌𝐀𝐍𝐓𝐈𝐂 » ───⟡\n│\n│ 💘 ${sender} ne ${victim} ko\n│    kiss karke khush kar diya! 😘\n│\n│ ✨ Yeh lamha yaad rahega!\n│\n│ 💖 — DANIYAL BHATTI BOT\n╰───────────────⟡`,
 ];
 
 module.exports = {
@@ -43,7 +43,7 @@ module.exports = {
 
     if (!victimID) {
       return send.reply(
-        `╭─── « 💋 KISS COMMAND » ───⟡\n│\n│ ⚠️ Kisi ko tag karo ya\n│    uske message pe reply karo!\n│\n│ 💡 Usage: .kiss @naam\n│\n│ 💖 — SARDAR RDX BOT\n╰───────────────⟡`
+        `╭─── « 💋 KISS COMMAND » ───⟡\n│\n│ ⚠️ Kisi ko tag karo ya\n│    uske message pe reply karo!\n│\n│ 💡 Usage: .kiss @naam\n│\n│ 💖 — DANIYAL BHATTI BOT\n╰───────────────⟡`
       );
     }
 
