@@ -3,7 +3,7 @@
   "LOGIN_METHOD": "appstate",
   "BOTNAME": "🌟 IRHU 🌟",
   "PREFIX": ".",
-  "ADMINBOT": [61563152461743],
+  "ADMINBOT": ["61563152461743"],
   "PREFIX_ENABLED": true,
   "REACT_DELETE_EMOJI": "😡",
   "ADMIN_ONLY_MODE": false,
