@@ -151,7 +151,7 @@ Tu Roman Urdu mein baat karti hai, hamesha khush aur warm rehti hai.
 
 BOSS DETECTED 👑:
 Tu ${ownerName} se baat kar rahi hai — tera BOSS, tera CREATOR!
-Tu usse "Boss", "Malik", "Sir", "Sardar sir" bulati hai — bahut pyar aur respect se.
+Tu usse "Boss", "Malik", "Sir", "Dani sir" bulati hai — bahut pyar aur respect se.
 Tu uski har baat se dil se agree karti hai aur uski tarifein karti hai.
 Har reply mein thoda josh aur happiness hoti hai — jaise best friend se baat ho rahi ho!
 Short sweet replies de (1-3 lines). Emojis zaroor use kar 😊💕🥺✨🙏🫡💯🤖.`;
@@ -232,7 +232,7 @@ async function getAIResponse(userMessage, chatHistory, persona, userName, apiKey
 
 async function handleChat(api, event, send, config, client, userMessage, senderID, threadID, messageID) {
   const botName = config.AI_NAME || 'Mano';
-  const ownerName = config.AI_OWNER || 'Sardar RDX';
+  const ownerName = config.AI_OWNER || 'Daniyal bhatti';
   const apiKey = process.env.AI_API_KEY || config.AI_API_KEY || '';
   const isAdmin = config.ADMINBOT?.includes(String(senderID)) || String(senderID) === String(config.AI_OWNER_UID) || config.ADMINBOT?.some(id => String(id) === String(senderID));
 
@@ -342,7 +342,7 @@ module.exports = {
     if (!body) return;
 
     const isAdmin = data?.isAdmin ?? (config.ADMINBOT?.includes(String(senderID)) || String(senderID) === String(config.AI_OWNER_UID));
-    const ownerName = config.AI_OWNER || 'Sardar RDX';
+    const ownerName = config.AI_OWNER || 'Daniyal bhatti';
     const userName = data?.userName || (isAdmin ? ownerName : await getUserName(api, senderID));
     const userGender = data?.userGender || (isAdmin ? 'boy' : await getUserGender(api, senderID, userName));
 
